@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+
+[dev-packages]
+pipenv = "*"
+flake8 = "*"
+pep8 = "*"
+pre-commit = "*"
+black = "*"
+pylance = "*"
+
+[requires]
+python_version = "3.11"
